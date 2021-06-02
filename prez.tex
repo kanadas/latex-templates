@@ -1,7 +1,8 @@
 \documentclass{beamer}
 
 \usepackage[utf8]{inputenc}
-%\usepackage{polski}
+
+\usepackage{polski}
 %\usepackage{titling}
 \usepackage{romannum}
 \usepackage{amsmath}
@@ -18,9 +19,11 @@
 \def\Z{\mathbb{Z}}
 \def\Q{\mathbb{Q}}
 \def\N{\mathbb{N}}
+\def\H{\mathbb{H}}
 \def\Rn{\mathbb{R}^n}
 \def\E{\mathcal{E}}
 \def\B{\mathcal{B}}
+\def\F{\mathcal{F}}
 \def\1{\mathds{1}}
 \def\nor{\trianglelefteq}
 \def\ker{\operatorname{ker}}
@@ -42,10 +45,12 @@
 \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 \def\normsign{\|\cdot\|}
 \newcommand{\series}[3]{\sum_{#1}^{#2}#3}
+\newcommand{\colw}[1]{\column{#1\textwidth}}
+\newcommand{\scal}[2]{\left<#1,#2\right>}
 
-\usetheme{Warsaw}
+%\usetheme{Warsaw}
 
-\title{The best goddamn presentation}
+\title{Super fajna prezetacja}
 \author{Tomasz Kanas}
 
 \begin{document}
@@ -53,10 +58,18 @@
 \maketitle
 
 \begin{frame}
-    \frametitle{First Slide Bro}
+  \frametitle{Plan prezentacji}
+  \tableofcontents
+\end{frame}
+
+\section[Krótka sekcja]{Sekcja}
+
+\begin{frame}
+  \frametitle{Slajd}
 \end{frame}
 
 \begin{frame}
+  \center{\huge{Dziękuję za uwagę!}}
 \end{frame}
 
 \end{document}
