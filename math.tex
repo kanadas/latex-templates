@@ -52,6 +52,13 @@
 \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 \def\normsign{\|\cdot\|}
 \newcommand{\series}[3]{\sum_{#1}^{#2}#3}
+\newcommand{\scal}[2]{\left<#1,#2\right>}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
+%workaround for matching parenthesses checking:
+\newcommand{\ocinterval}[1]{\left(#1\right]}
+\newcommand{\cointerval}[1]{\left[#1\right)}
+
 
 \setlength{\droptitle}{-2cm}
 \title{Super fajny tytuł}
@@ -62,7 +69,7 @@
 \maketitle
 
 
-% \newpage{}
+%\newpage{}
 %\bibliography{bibliography}{} %Argument is relative path to .bib file
 %\bibliographystyle{abbrv}
 \end{document}
